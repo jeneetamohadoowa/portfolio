@@ -1,0 +1,264 @@
+body {
+   margin-left: 15px;
+   margin-right: 15px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 500px;
+    height: 500px;
+}
+
+.main-person {
+    display: block;
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.block {
+    display: block !important;
+}
+
+.img-person img {
+     width: 100%;
+     height: 100%;
+}
+
+.title-container {
+    border: 2px solid;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    height: 300px;
+}
+
+.title-text {
+    font-size: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title-description {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.position-left {
+    justify-content: flex-start !important;
+}
+
+.grid-info {
+    border: 2px solid;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    height: 600px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-container img {
+    width: 25%;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.description {
+    text-align: center;
+}
+
+.w-75 {
+    width: 75%
+}
+
+.h-100 {
+    height: 100%;
+}
+.m-10 {
+    padding: 10px;
+}
+
+.w-100 {
+    width: 100%;
+}
+@media only screen
+and (min-device-width: 1025px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .large-screen {
+        position: relative;
+        bottom: 500px;
+        width: 50%;
+        right: 0;
+        background-color: white;
+        left: 700px;
+    }
+    .section-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .title-text {
+        height: 200px;
+        text-align: center;
+    }
+
+    .small-device {
+        display: none !important;
+    }
+
+    .stack-display {
+        display: flex;
+        width: 100%;
+    }
+    .medium-change-display {
+        width: 100% !important;
+        display: flex;;
+        flex-direction: column;
+    }
+    .medium-full-width {
+        width: 100% !important;
+    }
+
+    .display-flex-medium {
+        display: flex;
+    }
+
+    .medium-mr-30 {
+        margin-right: 30px;
+    }
+    .medium-mt-30 {
+        margin-top: 30px;
+    }
+
+    .medium-half-width {
+        width: 50%;
+    }
+
+    .medium-height-100 {
+        height: 100%;
+    }
+}
+
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .section-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .title-text {
+        height: 200px;
+        text-align: center;
+    }
+
+    .small-device {
+        display: none !important;
+    }
+
+    .stack-display {
+        display: flex;
+        width: 100%;
+    }
+    .medium-change-display {
+        width: 100% !important;
+        display: flex;;
+        flex-direction: column;
+    }
+    .medium-full-width {
+        width: 100% !important;
+    }
+
+    .display-flex-medium {
+        display: flex;
+    }
+
+    .medium-mr-30 {
+        margin-right: 30px;
+    }
+    .medium-mt-30 {
+        margin-top: 30px;
+    }
+
+    .medium-half-width {
+        width: 50%;
+    }
+
+    .medium-height-100 {
+        height: 100%;
+    }
+}
+
+@media only screen
+and (max-device-width: 767px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .section-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .medium-device {
+        display: none;
+    }
+}
+
+.half-size-img {
+    width: 50% !important;
+    height: 50% !important;
+}
+
+.bg-black {
+    background: black;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+.form-container {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.copywrite-container {
+    border: 2px solid;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
